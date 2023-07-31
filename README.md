@@ -9,3 +9,9 @@
 ### Create filters Component in home/components folder
 ### Create product-box Component in home/components folder
 ### Add Products
+### Create cart Component in pages folder
+### Create models folder
+### Create Cart model
+### Create Cart table
+### Create Product model
+### Make Add to Cart Method in product-box component and add it to home component

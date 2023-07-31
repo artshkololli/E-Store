@@ -26,4 +26,8 @@ export class HomeComponent implements OnInit {
     this.category=newCat;
   }
 
+  onAddToCart():void{
+    
+  }
+
 }
