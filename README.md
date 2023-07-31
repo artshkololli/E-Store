@@ -8,3 +8,4 @@
 ### Create products-header Component in home/components folder
 ### Create filters Component in home/components folder
 ### Create product-box Component in home/components folder
+### Add Products
