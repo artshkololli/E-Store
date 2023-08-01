@@ -19,4 +19,8 @@
 ### 16.Create Cart service
 ### 17.Create getTotal and clearCart methods
 ### 18.Show added Items in Cart page
-### 18.Create removeItem,addQuantity,removeQuantity methods
+### 19.Create removeItem,addQuantity,removeQuantity methods
+### 20.Create Store service and API
+### 21.Create getAllProducts method
+### 22.Create onItemsCountChange and onSortChange methods
+### 23.Create getAllCategories method in store service

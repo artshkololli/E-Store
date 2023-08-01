@@ -9,14 +9,7 @@ export class ProductBoxComponent implements OnInit{
 
   @Input() fullWidthMode=false;
 
-  product:Product | undefined={
-    id:1,
-    title:'ASUS',
-    price:1200,
-    category:'Laptop',
-    description:'ASUS ROG 15',
-    image:'https://via.placeholder.com/150',
-  };
+  @Input() product:Product | undefined;
 
   @Output() addToCart=new EventEmitter();
 
