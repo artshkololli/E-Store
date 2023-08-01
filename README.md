@@ -14,6 +14,9 @@
 ### 11.Create Cart model
 ### 12.Create Cart table
 ### 13.Create Product model
-### 14.Make Add to Cart Method in product-box component and add it to home component
-### 13.Create Service folder
-### 13.Create Cart service
+### 14.Create addToCart Method in product-box component and add it to home component
+### 15.Create Service folder
+### 16.Create Cart service
+### 17.Create getTotal and clearCart methods
+### 18.Show added Items in Cart page
+### 18.Create removeItem,addQuantity,removeQuantity methods
