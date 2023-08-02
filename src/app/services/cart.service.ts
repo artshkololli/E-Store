@@ -31,7 +31,6 @@ export class CartService {
 
   clearCart():void{
     this.cart.next({items:[]});
-    this._snackbar.open('Cart Is Cleared!','OK',{duration:2000});
   }
 
   removeFromCart(item:CartItem , update=true):Array<CartItem>{

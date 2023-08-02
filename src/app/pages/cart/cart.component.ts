@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { CartService } from 'src/app/services/cart.service';
 import { Cart, CartItem } from 'src/models/cart.model';
 
@@ -35,7 +36,7 @@ export class CartComponent implements OnInit{
     'action'
   ]
 
-  constructor(private cartService:CartService){}
+  constructor(private cartService:CartService,private _snackbar:MatSnackBar){}
 
   ngOnInit(): void {
     this.cartService.cart.subscribe((_cart:Cart)=>{
@@ -62,6 +63,10 @@ export class CartComponent implements OnInit{
 
   onRemoveQuantity(item:CartItem):void{
     this.cartService.removeQuantity(item);
+  }
+
+  onCheckout():void{
+    this._snackbar.open('Order Completed!','OK',{duration:3000});
   }
 
 }

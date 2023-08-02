@@ -24,3 +24,4 @@
 ### 21.Create getAllProducts method
 ### 22.Create onItemsCountChange and onSortChange methods
 ### 23.Create getAllCategories method in store service
+### 24.Make Order
